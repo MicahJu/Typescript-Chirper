@@ -1,0 +1,48 @@
+.title {
+    text-align: center;
+  }
+  
+  .error-message {
+    background: red;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+  }
+  
+  .chirp-form, .loading {
+    width: 50%;
+    margin: 0 auto;
+  }
+  
+  .loading {
+    text-align: center;
+  }
+  
+  .chrips {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  .chrips > div {
+    background: lightgrey;
+    padding: 12px;
+    border-radius: 4px;
+  }
+  
+  .chirps > div > h3 {
+    word-wrap: break-word;
+  }
+  
+  .chirps > div > p {
+    word-wrap: break-word;
+  }
+  
+  .chirps > div:not(:last-child) {
+    margin-bottom: 8px;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: center;
+    margin: 1em;
+  }
